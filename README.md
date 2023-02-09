@@ -6,7 +6,9 @@
 Exploratory Data Analysis
 -------------------------
 
-```
+### Exploratory Visualization
+
+```python
 # RATING
 plt.figure(facecolor='#eaeaf2'); sns.set(rc = {'figure.figsize':(10,5)});
 sns.countplot(data=df, x=df['certification'], palette = "twilight").set(title='\nR A T I N G\n');
@@ -15,7 +17,7 @@ sns.countplot(data=df, x=df['certification'], palette = "twilight").set(title='\
 ![png](Files/ReadMe/EDA1.png)
 
 
-```
+```python
 # REVENUE
 plots = sns.barplot(x="certification", y="revenue", data=df, palette = "rocket", errorbar=None);
 for bar in plots.patches:
@@ -29,7 +31,7 @@ for bar in plots.patches:
 ![png](Files/ReadMe/EDA2.png)
 
 
-```
+```python
 # BUDGET
 plot = sns.barplot(x="certification", y="budget", data=df, palette = "mako", errorbar=None); 
 for bar in plot.patches:
