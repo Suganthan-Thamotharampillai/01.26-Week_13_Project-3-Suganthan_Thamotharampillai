@@ -3,10 +3,11 @@
 
 
 
-Exploratory Data Analysis
+**Exploratory Data Analysis**
 -------------------------
 
-### Exploratory Visualization
+#### **Exploratory** Visualization
+
 
 ```python
 # RATING
