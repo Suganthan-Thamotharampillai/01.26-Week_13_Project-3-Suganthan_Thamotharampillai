@@ -22,7 +22,7 @@ for bar in plotts.patches:
                    textcoords='offset points');plt.title("\nF I N A N C I A L\nV A L U E\n");
 ```
 
-![png](File1/EDA0.png)
+![png](Files/ReadMe/EDA0.png)
 
 
 ```python
@@ -31,7 +31,7 @@ plt.figure(facecolor='#eaeaf2'); sns.set(rc = {'figure.figsize':(10,5)});
 sns.countplot(data=df, x=df['certification'], palette = "twilight").set(title='\nR A T I N G\n');
 ```
 
-![png](Files1/EDA1.png)
+![png](Files/ReadMe/EDA1.png)
 
 
 ```python
@@ -45,7 +45,7 @@ for bar in plots.patches:
                    textcoords='offset points');plt.title("\nR E V E N U E\n")
 ```
 
-![png](Files1/EDA2.png)
+![png](Files/ReadMe/EDA2.png)
 
 
 ```python
