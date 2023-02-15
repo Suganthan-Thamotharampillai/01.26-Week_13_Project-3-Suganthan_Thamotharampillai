@@ -59,6 +59,6 @@ for bar in plot.patches:
                    textcoords='offset points');plt.title("\nB U D G E T\n")
 ```
 
-![png](Files1/EDA3.png)
+![png](Files/ReadMe/EDA3.png)
 
 ![png](Files/ReadMe/EDA4.png)
