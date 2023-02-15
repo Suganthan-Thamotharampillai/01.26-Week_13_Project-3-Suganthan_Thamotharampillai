@@ -22,7 +22,7 @@ for bar in plotts.patches:
                    textcoords='offset points');plt.title("\nF I N A N C I A L\nV A L U E\n");
 ```
 
-![png](Files/ReadMe/EDA0.png)
+![png](File1/EDA0.png)
 
 
 ```python
